@@ -1,0 +1,9 @@
+{
+  "name": "js-ts-monotrepos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jaramillo-carlos/js-ts-monotrepos.git",
+  "author": "Carlos Jaramillo <cejaramillof@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
