@@ -5,5 +5,8 @@
   "repository": "git@github.com:jaramillo-carlos/js-ts-monotrepos.git",
   "author": "Carlos Jaramillo <cejaramillof@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }
