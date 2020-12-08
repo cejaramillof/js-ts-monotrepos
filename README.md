@@ -27,6 +27,28 @@ One Repo, many related JS/TS packages, co-located in a git repo.
 - Private "dev utility" packages
 
 
+`"C:\Program Files\nodejs\node_modules\typescript\bin\tsc" -b .`
+``rm -rf */*.tsbuildinfo */dist`
+in root
+`yarn add -WD rimraf`
+
+in utils
+`yarn add react date-fns`
+`yarn add -D @types/react @types/date-fns`
+
+in utils and types
+`yarn add -D @types/jest jest`
+`yarn add -D @babel/preset-env @babel/preset-typescript`
+
+## Install volta
+Volata manages global and package specific dependencies.
+
+`volta install typescript@3`
+
+`yarn tsc --version` still working `tsc --version`
+
+`ls -all node_modules/.bin`
+
 # JS/TS Monorepos
 
 [![Node.js CI (solution)](https://github.com/mike-north/js-ts-monorepos/workflows/Node.js%20CI%20(solution)/badge.svg)](https://github.com/mike-north/js-ts-monorepos/actions?query=workflow%3A%22Node.js+CI+%28solution%29%22)
