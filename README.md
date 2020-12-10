@@ -31,6 +31,17 @@ One Repo, many related JS/TS packages, co-located in a git repo.
 ``rm -rf */*.tsbuildinfo */dist`
 in root
 `yarn add -WD rimraf`
+`yarn add -WD eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser`
+`yarn add -DW lerna`
+`yarn add -DW scripty`
+`chmod +x scripts/greet` - `chmod -R +x scripts-win/greet` - `chmod -R +x scripts-win` make file executable
+`ls -all scripts`
+
+
+`lerna link`
+`lerna run clean`
+`lerna run build --concurrency 2`
+`lerna run test --concurrency 2 --stream`
 
 in utils
 `yarn add react date-fns`
