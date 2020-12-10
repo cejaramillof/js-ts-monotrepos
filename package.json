@@ -32,6 +32,6 @@
   },
   "scripty": {
     "path": "./scripts/workspace",
-    "windowsPath": "./scripts-win"
+    "windowsPath": "./scripts-win/workspace"
   }
 }
