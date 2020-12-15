@@ -36,6 +36,15 @@ in root
 `yarn add -DW scripty`
 `chmod +x scripts/greet` - `chmod -R +x scripts-win/greet` - `chmod -R +x scripts-win` make file executable
 `ls -all scripts`
+`yarn add -WD @commitlint/cli @commitlint/config-conventional @commitlint/config-lerna-scopes commitlint husky lerna-changelog`
+`echo "build(api): change something in api's build" | yarn commitlint` fail because api not is a scope (package) right now
+`echo "build(types): change something in api's build" | yarn commitlint`
+`volta install commitlint`
+`echo "build(api): change something in api's build" | commitlint` fail because api not is a scope (package) right now
+`rm -r -f .git/hooks/`
+`cat .git/hooks/commit-msg`
+`echo "ft(types): more reasonable default types for generics" | commitlint`
+`echo "feat(types): more reasonable default types for generics" | commitlint`
 
 
 `lerna link`
