@@ -46,6 +46,8 @@ in root
 `echo "ft(types): more reasonable default types for generics" | commitlint`
 `echo "feat(types): more reasonable default types for generics" | commitlint`
 
+`lerna version`
+`lerna version --conventional-commits` (to upgrade version)
 
 `lerna link`
 `lerna run clean`
