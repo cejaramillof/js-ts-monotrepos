@@ -1,6 +1,6 @@
 {
   "name": "@shlack/utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
@@ -14,9 +14,9 @@
     "link": "lerna link"
   },
   "dependencies": {
+    "@shlack/types": "^0.0.2",
     "date-fns": "^2.16.1",
-    "react": "^17.0.1",
-    "@shlack/types": "^0.0.1"
+    "react": "^17.0.1"
   },
   "devDependencies": {
     "@types/date-fns": "^2.6.0",
