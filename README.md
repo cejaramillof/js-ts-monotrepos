@@ -49,6 +49,10 @@ in root
 `lerna version`
 `lerna version --conventional-commits` (to upgrade version)
 
+`volta install verdaccio`
+
+`rm -rf ~/.local/share/verdaccio`
+
 `lerna link`
 `lerna run clean`
 `lerna run build --concurrency 2`
