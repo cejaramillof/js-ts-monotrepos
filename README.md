@@ -52,7 +52,7 @@ in root
 `volta install verdaccio`
 `rm -rf ~/.local/share/verdaccio`
 `lerna publish --conventional-commits`
-`lerna exec yarn publish`
+`lerna exec 'yarn publish'`
 
 `lerna link`
 `lerna run clean`
