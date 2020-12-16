@@ -50,8 +50,9 @@ in root
 `lerna version --conventional-commits` (to upgrade version)
 
 `volta install verdaccio`
-
 `rm -rf ~/.local/share/verdaccio`
+`lerna publish --conventional-commits`
+`lerna exec yarn publish`
 
 `lerna link`
 `lerna run clean`
