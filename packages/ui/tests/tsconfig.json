@@ -4,7 +4,8 @@
     "types": ["jest"],
     "baseUrl": "..",
     "jsx": "react",
-    "noEmit": true
+    "noEmit": true,
+    "paths": { "@shlack/ui/*": ["../src/*"] }
   },
   "include": ["."]
 }

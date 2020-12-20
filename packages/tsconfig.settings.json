@@ -10,6 +10,7 @@
     "noImplicitReturns": true,
     "declaration": true,
     "outDir": "dist",
-    "rootDir": "src"
+    "rootDir": "src",
+    "skipLibCheck": true
   }
 }
