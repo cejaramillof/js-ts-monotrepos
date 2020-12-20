@@ -16,7 +16,7 @@
   "dependencies": {
     "@shlack/types": "^0.0.2",
     "date-fns": "^2.16.1",
-    "react": "^17.0.1"
+    "react": "^16.14.0"
   },
   "devDependencies": {
     "@types/date-fns": "^2.6.0",
