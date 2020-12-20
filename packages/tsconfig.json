@@ -6,6 +6,12 @@
     },
     {
       "path": "types"
+    },
+    {
+      "path": "data"
+    },
+    {
+      "path": "ui"
     }
   ]
 }

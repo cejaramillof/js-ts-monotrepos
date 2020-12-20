@@ -54,6 +54,13 @@ in root
 `lerna publish --conventional-commits`
 `lerna exec 'yarn publish'`
 
+
+`lerna add @shlack/utils --scope '@shlack/{ui,data}'`
+`lerna add @shlack/types --scope '@shlack/{ui,data}'`
+`lerna add @shlack/data --scope @shlack/ui`
+`lerna link`
+
+
 `lerna link`
 `lerna run clean`
 `lerna run build --concurrency 2`
