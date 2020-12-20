@@ -28,6 +28,7 @@
     "yarn": "1.22.10"
   },
   "scripts": {
+    "start": "scripty",
     "greet": "scripty",
     "api-docs": "scripty",
     "build": "scripty",

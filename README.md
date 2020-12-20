@@ -59,6 +59,9 @@ in root
 `lerna add @shlack/types --scope '@shlack/{ui,data}'`
 `lerna add @shlack/data --scope @shlack/ui`
 `lerna link`
+`lerna run dev --scope @shlack/ui`
+`lerna run dev --scope @shlack/ui --stream`
+`node packages/ui/server/server.js `
 
 
 `lerna link`
