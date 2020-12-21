@@ -63,10 +63,12 @@ in root
 `lerna run dev --scope @shlack/ui --stream`
 `node packages/ui/server/server.js `
 
-
 `yarn add -WD @microsoft/api-extractor`
 `yarn api-extractor init`
 
+`lerna exec 'mkdir etc'`
+`yarn build`
+`lerna run api-report`
 
 `lerna link`
 `lerna run clean`
