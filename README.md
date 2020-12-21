@@ -71,7 +71,7 @@ in root
 `lerna api-report`
 
 `yarn add -WD  @microsoft/api-documenter`
-`lerna run api-docs`
+`yarn api-docs`
 
 `lerna link`
 `lerna run clean`
