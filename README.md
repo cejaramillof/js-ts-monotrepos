@@ -68,7 +68,10 @@ in root
 
 `lerna exec 'mkdir etc'`
 `yarn build`
-`lerna run api-report`
+`lerna api-report`
+
+`yarn add -WD  @microsoft/api-documenter`
+`lerna run api-docs`
 
 `lerna link`
 `lerna run clean`
