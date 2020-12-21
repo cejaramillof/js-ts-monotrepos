@@ -64,6 +64,10 @@ in root
 `node packages/ui/server/server.js `
 
 
+`yarn add -WD @microsoft/api-extractor`
+`yarn api-extractor init`
+
+
 `lerna link`
 `lerna run clean`
 `lerna run build --concurrency 2`
